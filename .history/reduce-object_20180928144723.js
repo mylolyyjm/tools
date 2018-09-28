@@ -1,7 +1,7 @@
 /**
  * 对象数组去重
- * @param {Array} arr => 需要去重的对象数组
- * @param {String} property => 去重的依据属性
+ * @param {String|Array} arr => 需要去重的对象数组
+ * 参数2: property => 去重的依据属性
  */
 module.exports = (arr, property) => {
     arr.reduce((cur, next) => {

@@ -1,5 +1,5 @@
 /**
- * Created by cty on 2018-09-28.
+ * Created by cty on 2017-05-20.
  */
 module.exports = (obj) => {
     for (let key in obj) {
